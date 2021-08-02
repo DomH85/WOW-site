@@ -1,0 +1,114 @@
+/* Media Queries / Responsive breakpoints
+========================================================================== */
+
+
+
+
+
+
+
+/* Projects Page
+========================================================================== */
+
+/* Headers
+========================================================================== */
+
+h4 {
+  height: 39px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+h2 {
+  width: auto;
+  height: 64px;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 0px;
+}
+
+/* Body
+========================================================================== */
+
+#body-wrap {
+  margin: 0 auto;
+  width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+/* Navigation
+========================================================================== */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+.navbar-container-desktop {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+  width: 1920px;
+  height: 112px;
+  padding: 16px 141px 15.9px 138px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.right-side {
+  display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+
+
+/*  BUTTONS CSS !!! <<<<!!!!!
+========================================================================== */
+/* Buttons
+========================================================================== */
