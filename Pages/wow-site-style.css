@@ -1,3 +1,12 @@
+
+
+
+#body-style {
+  width: 100%;
+  margin: 0 auto;
+  color: #333333;
+}
+
 /* Media Queries / Responsive breakpoints
 ========================================================================== */
 
@@ -7,122 +16,43 @@
 
 
 
-/* Projects Page
+/* Home Page
 ========================================================================== */
 
 /* Headers
 ========================================================================== */
 
-h4 {
-  height: 39px;
-  font-family: Montserrat;
-  font-size: 32px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.22;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
 
 
-h2 {
-  width: auto;
-  height: 64px;
-  font-family: Montserrat;
-  font-size: 56px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.21;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-  margin: 0px;
-}
+
 
 /* Body
 ========================================================================== */
 
-#body-wrap {
-  margin: 0 auto;
-  width: 100%;
-}
-
-.body {
-    width: 100%;
-    margin: 0 auto;
-
-}
 
 
 /* Navigation
 ========================================================================== */
 
-/* top navigation container */
-#nav-container {
-  width: 1920px;
-  height: 112px;
-  padding: 16px 141px 15.9px 138px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
-  background-color: #ffffff;
-}
 
-.column {
-  float: left;
-  padding: 10px;
-  
-}
-
-.column-2 {
-  float: right;
-  padding: 10px;
-  
-}
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  Flex: right;
-  background-color: ;
+.container {
+  height: 60px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #707070;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 24px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+.logo {
+  max-width: 250px;
+  padding: 0 10px;
+  overflow: hidden;
 }
 
 
