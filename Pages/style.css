@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+/*Headers Style----------------------------------------------------------------------- */
+
+h1 {
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+h2 {
+   font-family: Montserrat;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 /*Nav Style----------------------------------------------------------------------- */
 
 nav {
@@ -83,7 +109,7 @@ nav {
     .nav-links {
         position: absolute;
         right: 0px;        
-        height: 92vh;
+        height: 90vh;
         top: 8vh;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
         background-color: #A3101F;
@@ -171,6 +197,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -2;
 }
 
 .hero-container {
@@ -236,6 +263,62 @@ body {
 }
 
 
+
+/*Intro Section ----------------------------------------------------------------------- */
+
+#spec-clean {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3101F;
+    padding-left: 138px;
+    padding-right: 138px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.intro-container {
+    width: 992px;
+}
+
+.intro-head {
+    padding-top: 74px;
+    padding-bottom: 24px;
+}
+
+.intro-text {
+    padding-bottom: 66px;
+}
+
+
+
+/*Why Wow Section ----------------------------------------------------------------------- */
+
+.row-container {
+    
+}
+
+.hm-row-1 {
+
+}
+
+.hm-row-2 {
+    
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
