@@ -294,16 +294,32 @@ body {
 
 /*Why Wow Section ----------------------------------------------------------------------- */
 
+#why-wow {
+    display: block;
+    margin-bottom: 80px;
+}
+
+.why-head {
+    padding-top: 66px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
 .row-container {
-    
+    margin-left: 138px;
+    margin-right: 138px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .hm-row-1 {
-
+    padding-bottom: 80px;
 }
 
 .hm-row-2 {
-    
+
 }
 
 .column {
