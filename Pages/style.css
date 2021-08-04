@@ -295,8 +295,9 @@ body {
 /*Why Wow Section ----------------------------------------------------------------------- */
 
 #why-wow {
-    display: block;
-    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 .why-head {
@@ -307,8 +308,7 @@ body {
 
 
 .row-container {
-    margin-left: 138px;
-    margin-right: 138px;
+    
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -319,15 +319,28 @@ body {
 }
 
 .hm-row-2 {
-
+    align-items: center;
+    margin-left: 20%;
+    margin-right:20%;
+    
+    
 }
 
 .column {
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+     
   }
+
+  
+.column2 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+   
+    
+ }
 
   /* Clear floats after the columns */
 .row:after {
@@ -357,7 +370,7 @@ body {
 }
 
 .sect3-text {
-    
+
 }
 
 
