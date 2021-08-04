@@ -46,7 +46,7 @@ nav {
     border-radius: 2px;
     width: 24px;
     height: 4px;
-    background-color: #707070;
+    background-color: #a3101f;
     margin: 4px;
     transition: all 0.3s ease;
 }
@@ -173,7 +173,7 @@ body {
     background-size: cover;
 }
 
-.introduction {
+.hero-container {
     align-items: center;
     text-align: center;
     margin: auto;
@@ -181,14 +181,14 @@ body {
     
 }
 
-.intro {
+.hero-header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
 }
 
-.intro-text h1 {   
+.hero-text h1 {   
     width: 905px;
     height: 136px;
     margin: 0 0 40px;
@@ -205,7 +205,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.cta {
+.hero-cta {
 
 }
 
@@ -223,8 +223,17 @@ body {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1024px){
+    .intro-text h1 { 
+        width: 582px;
+        height: 88px;
+        font-size: 36px;
+    }
+}
 
+@media screen and (max-width: 768px){
 
+}
 
 
 
