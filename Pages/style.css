@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*Nav ----------------------------------------------------------------------- */
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -138,9 +140,77 @@ nav {
 
 
 
-/*Body ----- */
+/*Body ----------------------------------------------------------------------- */
 
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*Hero ----------------------------------------------------------------------- */
+
+#hero {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    min-height: 90vh;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduction {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.intro-text h1 {   
+    width: 905px;
+    height: 136px;
+    margin: 0 0 40px;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #a3101f;
+}
+
+.cta {
+
+}
+
+.more-btn {
+    width: 224px;
+    height: 64px;
+    margin: 40px 353px 0 328px;
+    padding: 18px 23px 17px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #1875a3;
+    width: 178px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
 }
