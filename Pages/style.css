@@ -294,8 +294,72 @@ body {
 
 /*Why Wow Section ----------------------------------------------------------------------- */
 
-#why-wow {
+.why {
+    display: inline-block;
+    align-items: center;
+
+
+}
+
+
+.row { 
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row-2 { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: center;
+    width: 100%;
+}
+
+  
+.column {    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    
+}
+
+.orange-column {
+      background-color: orange;
+      width: 334px;
+      height: auto;
+}
+  
+.blue-column {
+    background-color: blue;
+    width: 334px;
+    height: auto;
+}
+  
+.green-column {
+    background-color: green;
+    width: 334px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#why-wow {
+    
     align-items: center;
     margin-bottom: 60px;
 }
@@ -308,10 +372,12 @@ body {
 
 
 .row-container {
-    
-    text-align: center;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+
+    gap: 4px;
+    grid-auto-flow: column;
 }
 
 .hm-row-1 {
@@ -320,15 +386,14 @@ body {
 
 .hm-row-2 {
     align-items: center;
-    margin-left: 20%;
-    margin-right:20%;
+  
     
     
 }
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 33%;
     padding: 10px;
      
   }
